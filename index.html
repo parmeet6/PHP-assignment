@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management</title>
+    <!-- Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Library</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="secondpage.php">Library</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Welcome Section -->
+<div class="container mt-5">
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome to our Library Management System</h1>
+        <p class="lead">Explore our collection of books and manage your reading experience seamlessly.</p>
+        <hr class="my-4">
+        <p>Start your literary journey with us!</p>
+        <a class="btn btn-primary btn-lg" href="secondpage.php" role="button">Explore Library</a>
+    </div>
+</div>
+
+<!-- Featured Books Section -->
+<div class="container mt-5">
+    <h2>Featured Books</h2>
+    <div class="row">
+        <!-- Add featured book cards here -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="./pictures/book1.jpg" class="card-img-top" alt="Book 1">
+                <div class="card-body">
+                    <h5 class="card-title">Rich Dad Poor Dad</h5>
+                    <p class="card-text">Author : Robert T. Kiyosaki</p>
+                    <p class="card-text">Publication Year: 2003</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="/pictures/book2.jpg" class="card-img-top" alt="Book 2">
+                <div class="card-body">
+                    <h5 class="card-title">Murder on Orient Express</h5>
+                    <p class="card-text">Author: Agatha Christie</p>
+                    <p class="card-text">Publication Year: 2012</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="/pictures/book3.jpg" class="card-img-top" alt="Book 3">
+                <div class="card-body">
+                    <h5 class="card-title">The Alchemist</h5>
+                    <p class="card-text">Author: Paulo Coelho</p>
+                    <p class="card-text">Publication Year: 2010</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS and Popper.js scripts (required for Bootstrap) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
